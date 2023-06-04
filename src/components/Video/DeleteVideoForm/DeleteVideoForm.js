@@ -3,9 +3,8 @@ import { Form } from "semantic-ui-react";
 import { Video, Storage } from "../../../api"
 import { useFormik } from 'formik'; 
 import { initialValues, validationSchema } from "./DeleteVideoForm.data"
-import { map, split } from 'lodash'
+import { map } from 'lodash'
 import Swal from "sweetalert2"
-import { Player, BigPlayButton } from 'video-react'
 
 const videoController = new Video();
 const storageController = new Storage();
@@ -13,7 +12,6 @@ export function DeleteVideoForm(props) {
 
   const { onClose, idPaciente } = props;
   const [videos, setVideos] = useState(null);
-  const [videoPath, setVideoPath] = useState("");
   const videoOptions = []
 
   useEffect(() => {
