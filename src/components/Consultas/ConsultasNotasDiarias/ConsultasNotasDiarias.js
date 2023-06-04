@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
+import React from 'react'
 import { Tab } from 'semantic-ui-react'
 import { AddNotesForm, ShowNotes } from '../../Notes'
-import { ShowVideo, VideoLayout } from '../../Video'
+import { VideoLayout } from '../../Video'
 import "./ConsultasNotasDiarias.scss"
 
 
