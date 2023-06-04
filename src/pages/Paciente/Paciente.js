@@ -1,7 +1,7 @@
 import React, { useState, useEffect} from 'react';
 import { Paciente as PacienteController} from "../../api";
 import { useParams } from "react-router-dom"
-import { PacienteAvatar, GeneralDataPaciente, VideosPaciente } from "../../components/Paciente"
+import { PacienteAvatar, GeneralDataPaciente } from "../../components/Paciente"
 import { ShowVideo } from "../../components/Video"
 import { Tab } from 'semantic-ui-react'
 import "./Paciente.scss"
