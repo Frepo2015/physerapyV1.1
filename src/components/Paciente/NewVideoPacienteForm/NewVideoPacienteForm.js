@@ -1,7 +1,6 @@
 import React from 'react'
 import classNames from 'classnames'
 import { Form, Image, Label } from 'semantic-ui-react'
-import { useFormik } from 'formik'
 import './NewVideoPacienteForm.scss'
 
 export function NewVideoPacienteForm() {
