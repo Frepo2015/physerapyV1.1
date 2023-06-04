@@ -1,4 +1,4 @@
-import React, { useState, useEffect, useRef } from 'react'
+import React from 'react'
 import { Grid, TextArea } from 'semantic-ui-react'
 import Slick from 'react-slick'
 import { Player, BigPlayButton } from "video-react"
