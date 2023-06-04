@@ -1,7 +1,7 @@
 import { setDoc, doc, collection, getDocs, getDoc, limit, orderBy, query } from "firebase/firestore";
 import {v4 as uuidv4} from "uuid";
 import { map } from "lodash";
-import { db, offlineDb } from "../utils";
+import { db } from "../utils";
 import Swal from 'sweetalert2'
 
 export class Paciente {
