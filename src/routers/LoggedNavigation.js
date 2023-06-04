@@ -2,7 +2,6 @@ import React from 'react'
 import {BrowserRouter,  Routes, Route} from 'react-router-dom';
 import { LoggedLayout } from "../layouts"
 import {Home, Profile,  Agenda, Pacientes, Paciente, Consulta} from '../pages';
-import { VideosConsulta } from '../components/Consultas';
 
 export function LoggedNavigation() {
   return (
