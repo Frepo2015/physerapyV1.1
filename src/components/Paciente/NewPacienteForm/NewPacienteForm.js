@@ -1,5 +1,5 @@
 import React, { useState, useCallback } from 'react';
-import { Checkbox, Form, Image, Label } from "semantic-ui-react"
+import { Form, Image, Label } from "semantic-ui-react"
 import { useDropzone } from "react-dropzone";
 import { Storage, Paciente } from "../../../api"
 import { v4 as uuidv4 } from "uuid"
