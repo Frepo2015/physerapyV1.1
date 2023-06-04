@@ -1,0 +1,22 @@
+@import "~/src/scss/index";
+
+.paciente-generalData{
+
+    &__content{
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        >p{
+            font-size: 13px;
+            font-style: normal;
+            >span{
+                font-size: 15px;
+                font-style:oblique;
+            }
+            
+        }
+    }
+
+}

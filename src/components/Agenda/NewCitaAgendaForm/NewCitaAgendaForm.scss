@@ -1,0 +1,25 @@
+@import "~/src/scss/index";
+
+.ui.segment{
+    background: $background-primary !important;
+}
+
+.clndr-cell{
+    color: $font-dark;
+}
+
+.react-time-picker{
+   &__wrapper{
+        border: none !important;
+   }
+    &__inputGroup{
+        &__input{
+            height: 20px !important;
+            background: $background-secondary !important;
+        }
+    }
+
+   
+}
+
+

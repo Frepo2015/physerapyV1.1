@@ -1,0 +1,30 @@
+@import "~/src/scss/index";
+
+.slider{
+
+    &__item{
+        display: flex;
+        flex-direction: column;
+        justify-content: center !important;
+       align-items: center !important;
+       &:hover{
+        opacity: 0.6;
+        cursor: pointer;
+    }
+
+        .ui.image{
+            width: 220px;
+            height: 220px;
+            border-radius: 100px;
+           margin: 20px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        >p{
+            font-size: 20px;
+            margin: 0;
+        }
+    }
+}
+    

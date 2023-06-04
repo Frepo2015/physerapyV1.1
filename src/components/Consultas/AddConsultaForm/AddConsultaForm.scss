@@ -1,0 +1,15 @@
+@import "~/src/scss/index";
+
+.add-consulta-form{
+    &__content {
+        margin-bottom: 20px;
+    }
+
+    &-inputs{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+    }
+}

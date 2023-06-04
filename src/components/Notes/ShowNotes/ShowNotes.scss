@@ -1,0 +1,14 @@
+@import '~/src/scss/index';
+
+textarea{
+    height:500px;
+        max-height: 500px;
+        min-height: 500px;
+    max-width: 90%;
+    min-width: 90%;
+    width: 90%;
+    background-color: $background-secondary;
+                border-color: $background-secondary;
+                color: $font-light;
+
+}

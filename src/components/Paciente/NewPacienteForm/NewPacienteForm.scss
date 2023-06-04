@@ -1,0 +1,30 @@
+@import "~/src/scss/index";
+
+.new-paciente-form{
+    &__banner{
+        height: 170px;
+        background-color: $background-secondary;
+        margin-bottom: 20px;
+        padding: 10px;
+
+        &.error{
+            border: 1px solid $danger;
+        }
+
+        &:hover{
+            cursor: pointer;
+        }
+
+        .ui.image{
+            width: 100px;
+            height: 140px;
+            border-radius: 50px;
+            margin: 0 auto;
+
+            &.full{
+                width: 33%;
+            }
+        }
+    }
+
+}

@@ -1,0 +1,9 @@
+@import "~/src/scss/index";
+
+.ui.form{
+    textarea{
+        height: 450px;
+        max-height: 500px;
+        min-height: 400px;
+    }
+}

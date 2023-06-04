@@ -1,0 +1,32 @@
+@import "~/src/scss/index";
+
+.paciente-avatar{
+
+    padding-bottom: 50px;
+        padding-left: 50px;
+
+
+    &__image{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        
+
+        .ui.image{
+            width: 100px;
+            border-radius: 100px;
+            margin-right: 800px;
+        }
+
+        >h1{
+            font-size: 50px;
+            margin: 0;
+        }
+
+        > span {
+            text-transform: uppercase;
+        }
+        
+    }
+}

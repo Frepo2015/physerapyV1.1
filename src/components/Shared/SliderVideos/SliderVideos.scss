@@ -1,0 +1,25 @@
+@import "~/src/scss/index";
+@import "~video-react/styles/scss/video-react";
+
+$video_width:80%;
+$video_height: 500px;
+
+.container-slider{
+    height: 550px;
+}
+
+.video-react-video{
+    height: 100% !important;
+    width: 100% !important;
+}
+
+.video-react-controls-enabled{
+    height: $video_height !important;
+    width: $video_width !important;
+}
+    
+textarea{
+    padding: 10px;
+}
+
+

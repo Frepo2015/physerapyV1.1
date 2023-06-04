@@ -1,0 +1,28 @@
+@import "~/src/scss/index";
+
+.add-video-form{
+    &__content{
+        display: flex;
+        margin-bottom: 20px;
+
+        &-image{
+            height: 130px;
+            width: 130px;
+            background-color: $border-primary;
+            margin-right: 20px;
+            margin-top: 20px;
+
+            &.error{
+                border: 1px solid $danger;
+            }
+        }
+
+        &-inputs{
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+
+
+}

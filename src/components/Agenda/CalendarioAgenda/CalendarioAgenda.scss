@@ -1,0 +1,27 @@
+@import "~/src/scss/index";
+ 
+
+
+.rbc-today{
+    background-color: $background-primary;
+}
+
+.rbc-off-range-bg{
+    background-color: $background-dark;
+}
+
+.rbc-btn-group{
+    background-color: $background-primary;
+}
+
+.rbc-current-time-indicator{
+    background-color: $secondary-color;
+    height: 3px;
+}
+
+.rbc-event{
+    background-color: $secondary-color;
+}
+.rbc-time-view{
+    background-color: $background-primary;
+}
