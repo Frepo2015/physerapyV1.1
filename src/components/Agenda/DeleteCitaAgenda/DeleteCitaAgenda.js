@@ -1,10 +1,7 @@
 import React, {useState} from 'react'
-import { Paciente } from '../../../api'
 import { BasicModal } from "../../Shared"
 import { DeleteCitaAgendaForm } from "../DeleteCitaAgendaForm"
 import { Button } from 'semantic-ui-react'
-
-const pacienteController = new Paciente();
 
 export function DeleteCitaAgenda() {
 
