@@ -1,0 +1,128 @@
+.ui.form {
+    .field {
+        label {
+            color: $font-light;
+            padding-top: 10px;
+        }
+
+        textarea {
+            background-color: $background-secondary;
+            border-color: $background-secondary;
+            color: $font-light;
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $background-secondary;
+            }
+        }
+
+        .ui.selection.dropdown {
+            background-color: $background-secondary;
+            border-color: $background-secondary;
+            color: $font-light;
+
+            &:hover,
+            &:active,
+            &:focus {
+                background-color: $background-secondary;
+            }
+
+            .item {
+
+                background-color: $background-secondary;
+                border-color: $background-secondary;
+                color: $font-light;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: $background-secondary;
+                }
+
+            }
+        }
+
+        .input {
+
+            input {
+                background-color: $background-secondary;
+                border-color: $background-secondary;
+                color: $font-light;
+
+                &:hover,
+                &:active,
+                &:focus,
+                &::selection {
+                    background-color: $background-secondary;
+                }
+            }
+
+            i {
+                color: $font-light;
+            }
+        }
+
+        .ui.button.primary {
+            background-color: $secondary-color;
+            color: $font-light;
+            border-radius: 100px;
+        }
+
+        .ui.checkbox {
+            padding-top: 10px;
+
+            label {
+                padding-top: 0;
+
+                &:hover,
+                &:active,
+                &:focus,
+                &:checked {
+                    color: $font-light;
+                }
+            }
+
+        }
+
+        .ui.radio.checkbox {
+            label {
+                padding-left: 20px;
+
+                &:hover,
+                &:active,
+                &:focus,
+                &:checked {
+                    color: $font-light;
+                }
+            }
+
+        }
+    }
+
+    .field.error {
+        .ui.input {
+            input {
+                background-color: $background-secondary;
+                border: 1px solid $danger;
+                color: $danger;
+            }
+
+            i {
+                color: $danger;
+            }
+
+            textarea {
+                background-color: $background-secondary;
+                border: 1px solid $danger;
+                color: $danger;
+
+                &:hover,
+                &:active,
+                &:focus {
+                    background-color: $background-secondary;
+                }
+            }
+        }
+    }
+}

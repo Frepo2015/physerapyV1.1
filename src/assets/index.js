@@ -1,0 +1,12 @@
+export { default as icon2 } from "./png/icon2.png";
+export { default as icon } from "./png/icon.png";
+export { default as logoSinFondo } from "./png/logoSinFondo.png";
+export { default as logoSinFondoAlt } from "./png/logoSinFondoAlt.png";
+export { default as noImage } from "./png/no-image.png";
+export { default as defaultUser } from "./png/default-user.png";
+export { default as logoSinFondo2 } from "./png/logoSinFondo2.png";
+export { default as logoSinFondoAlt2 } from "./png/logoSinFondoAlt2.png";
+export { default as background } from "./jpg/background.jpg";
+export { default as blurbackground } from "./jpg/blurBack.jpg";
+export { default as escalaDolor } from "./png/escalaDolor.png";
+export { default as bannerHome } from "./png/banner1.png";

@@ -1,0 +1,22 @@
+@import '~/src/scss/index';
+
+.consulta-page{
+    margin: 25px 25px;
+
+    > h1{
+        color: $font-grey;
+            font-weight: 100;
+            font-size: 22px;
+            border-bottom: 0.5px solid;
+            padding-bottom: 8px;
+            margin-bottom: 30px;
+    }
+    > p{
+        font-size: 18px;
+        >span{
+            color: $font-grey;
+            font-size: 15px;
+        }
+        
+    }
+}
