@@ -5,7 +5,6 @@ import { Notas } from "../../../api"
 import { initialValues, validationSchema } from './AddNotesForm.data'
 import Swal from 'sweetalert2'
 import './AddNotesForm.scss'
-import { da } from 'date-fns/locale';
 
 const notasController = new Notas();
 
